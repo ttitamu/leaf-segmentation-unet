@@ -1,0 +1,14 @@
+[project]
+name = "leaf-segmentation-unet"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "albumentations>=2.0.8",
+    "gdown>=5.2.1",
+    "matplotlib>=3.10.8",
+    "opencv-python>=4.13.0.92",
+    "torch>=2.11.0",
+    "torchvision>=0.26.0",
+]

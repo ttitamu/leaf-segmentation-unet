@@ -141,6 +141,7 @@ dmypy.json
 *.png
 *.jpg
 
-# Weights
-*.pth
-
+# Model weights
+model/pretrained/*.pth
+model/pretrained/best_val_weights.pth
+model/pretrained/latest_weights.pth
